@@ -1,0 +1,34 @@
+name: clips
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - cudatoolkit=11.5  # 或改为你本机支持的版本
+  - matplotlib
+  - opencv
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - pillow
+  - pyyaml
+  - pip:
+      - timm
+      - transformers==4.49.0
+      - accelerate
+      - dlib
+      - einops
+      - ftfy
+      - albumentations
+      - lightning-utilities
+      - pytorch-lightning
+      - tensorboardx
+      - tqdm
+      - peft
+      - robustness
