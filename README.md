@@ -1,5 +1,6 @@
 # ResProto-FD: Visual-Language Residual Prototype Sets for Generalized Face Forgery Detection (AAAI 2026)
 Official code for the paper.
+![framework](./figure/framework.png)
 
 ## Deepfake Detection Framework
 
