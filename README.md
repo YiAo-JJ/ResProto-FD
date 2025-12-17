@@ -77,13 +77,16 @@ python -m torch.distributed.run --nproc_per_node=[NUM_GPUS] test_ddp.py --[Testi
 ### Gradient-aware Residual Prototypes (GRP)
 
 Implemented in src/GRP.py, this module learns residual prototypes to enhance feature discrimination between real and fake samples by gradient-aware optimization.
-Visual-Language Residual Learning (VLRL)
+
+### Visual-Language Residual Learning (VLRL)
 
 Contains ResidualLearningLoss in src/RL.py, which aligns visual features with textual prompts through residual space learning.
-Prompt Engineering
+
+### Prompt Engineering
 
 prompt_templates.py provides text prompts for CLIP-based joint vision-language training.
-Dataset Support
+
+### Dataset Support
 
 Predefined loaders in dataset_fd/ for major deepfake datasets. Configure paths in respective dataset files.
 Environment Configuration
