@@ -6,6 +6,7 @@ Official code for the paper "ResProto-FD: Visual-Language Residual Prototype Set
 This repository implements deepfake detection using Gradient-aware Residual Prototypes (GRP) and Visual-Language Residual Learning (VLRL). The framework supports both single-GPU and multi-GPU Distributed Data Parallel (DDP) training.
 Project Structure
 
+```
 ├── dataset_fd/
 │   ├── CelebDF.py        # Celeb-DF dataset loader
 │   ├── DF40.py           # DF40 loader
@@ -31,6 +32,7 @@ Project Structure
 ├── test.py               # Single-GPU testing script
 ├── train_ddp.py          # Multi-GPU DDP training entry
 └── test_ddp.py           # Multi-GPU DDP testing entry
+```
 
 ## Installation
 
