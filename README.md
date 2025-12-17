@@ -34,13 +34,17 @@ Project Structure
 
 ## Installation
 
-    Create Conda environment:
+### Create Conda environment:
 
-    conda env create -f environment.yaml
+```bash
+conda env create -f environment.yaml
+```
 
-    Activate environment:
+### Activate environment:
 
-    conda activate [ENV_NAME]
+```bash
+conda activate [ENV_NAME]
+```
 
 ## Training
 ### Single-GPU Training
@@ -81,3 +85,4 @@ Dataset Support
 
 Predefined loaders in dataset_fd/ for major deepfake datasets. Configure paths in respective dataset files.
 Environment Configuration
+
